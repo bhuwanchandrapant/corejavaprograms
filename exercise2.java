@@ -4,11 +4,11 @@ import java.util.Scanner;
 public class exercise2 {
     public static void main(String[] args) {
         
-        //question1
+        //question
        /*  float a = 7/4.0f * 9/2.0f;
         System.out.println(a);*/
 
-        //question2
+        //question
         /*char grade = 'b';
         grade = (char)(grade + 8);
         System.out.println(grade);
