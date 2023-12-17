@@ -31,7 +31,7 @@ public class practiceset5 {
 
 
 
-     ///question2
+     ///question
 
      /*int sum = 0;
      int n = 5;
