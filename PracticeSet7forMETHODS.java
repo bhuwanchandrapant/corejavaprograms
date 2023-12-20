@@ -31,20 +31,25 @@ static void multification(int n){       /////multification of table question1
  static int fib(int n ){   // question4 fibbonacci using recursion 
  if(n == 1) {
     return 0;
-
  } 
  else if (n == 2) {
-    return 1;
-    
+    return 1;  
  }
  else{
      return fib(n-1) + fib(n-2);
  }
 
- 
-
 }
+ static void pattern1_rec(int n){
+     if (n > 0) {
+        pattern1_rec(n-1);
+        for(int i =0;i<n;i++){
+            System.out.print("*");
 
+        }
+        System.out.println();
+     }
+ }
 
 
 
@@ -80,6 +85,9 @@ static void multification(int n){       /////multification of table question1
           ///question 4
           int result = fib(5);
           System.out.println(result);
+               
+          //////question 8
+          pattern1_rec(5);
         
     }
 }
