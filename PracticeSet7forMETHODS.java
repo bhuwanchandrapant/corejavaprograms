@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class PracticeSet7forMETHODS {
 
 
@@ -27,6 +29,20 @@ static void multification(int n){       /////question1
 
         ////question2
         pattern(4);
+
+        ////practice question
+        Scanner s= new Scanner(System.in);
+    System.out.println("please enter the number");
+    int num = s.nextInt();
+    for(int i=1;i<11;i++){
+        System.out.print(num+"*"+i+"="+num*i);
+        if(i%2==0){
+            System.out.println("even");
+        }else{
+            System.out.println("odd");
+        }
+        
+    }
         
         
     }
