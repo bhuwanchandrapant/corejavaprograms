@@ -96,7 +96,7 @@ public class practiceSet6 {
             System.out.println("the value of maximum array is " + max);*/
 
 
-            //practice question 7
+            //practice question 
            /*  int [] arr = { 16,2,37,4,57,60};
             int min = Integer.MAX_VALUE;
             for(int element:arr){
