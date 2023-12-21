@@ -36,7 +36,7 @@ static void multification(int n){       /////multification of table question1
     return 1;  
  }
  else{
-     return fib(n-11) + fib(n-2);
+     return fib(n-1) + fib(n-2);
  }
 
 }
