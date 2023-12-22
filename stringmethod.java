@@ -1,7 +1,7 @@
 public class stringmethod {
     public static void main(String[] args) {
         //String name = "BhuwaN";
-       /*   int value = name.length();
+        int value = name.length();
         System.out.println(value);
         String l = name.toLowerCase();
 
