@@ -1,6 +1,6 @@
 public class stringmethod {
     public static void main(String[] args) {
-        //String name = "BhuwaN";
+        String name = "BhuwaN";
         int value = name.length();
         System.out.println(value);
         String l = name.toLowerCase();
@@ -13,7 +13,7 @@ public class stringmethod {
         String s = "bhuwan";
         System.out.println(s.substring(2));
         System.out.println(s.substring(2,5));  //substring() method 
-        String s = "bbbhuwaaan";
+        String s1 = "bbbhuwaaan";
         System.out.println(s.replace('b', 'a'));  
         System.out.println(s.replace("aaa", "bbb"));    //.replace () method
         String w = "bhuwan";
@@ -25,7 +25,7 @@ public class stringmethod {
         System.out.println(namee.indexOf("wa" , 4));  //.indexOf()method
         System.out.println(name.lastIndexOf("a", 4));   //.lastindexOf()method
         System.out.println(name.equals("BhuwaN"));  // .equals()method
-        System.out.println(name.equalsIgnoreCase("bhuwan"));   */ //equalsignorecase()method
+          */ //equalsignorecase()method
 
 
 
