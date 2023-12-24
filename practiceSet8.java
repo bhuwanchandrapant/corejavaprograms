@@ -1,5 +1,5 @@
 
-
+///question1
 class Employee{
     int salary;
     String name;
@@ -16,7 +16,18 @@ class Employee{
 
     }
 }
+class square{
+    int side;
+    public int area(){
+        return side*side;
+
+    }
+    public int perimeter(){
+        return 4*side;
+    }
+}
 /////////////////////////////////////////////////////////////
+   //question2
 class cellPhone{
     public void ring(){
         System.out.println("ringing......");
@@ -27,6 +38,17 @@ class cellPhone{
     }
     public void callFriend(){
         System.out.println("calling bhuwan.......");
+    }
+}
+class tommy{
+    public void  hit(){
+        System.out.println("hitting the enemy...");
+    }
+    public void run(){
+        System.out.println("running from the enemy");
+    }
+    public void fire(){
+        System.out.println("firing at the enemy");
     }
 }
 
@@ -45,6 +67,19 @@ public class practiceSet8 {
         asus.callFriend();
         asus.vibrate();
         asus.ring();
+
+        //question 3
+        square sq = new square();
+        sq.side = 5;
+        System.out.println(sq.area());
+        System.out.println(sq.perimeter());
+
+        //question5
+        tommy player = new tommy();
+        player.hit();
+        player.run();
+        player.fire();
+
 
     }
     
