@@ -28,16 +28,14 @@ abstract class child3 extends parent2{
     }
 }
 
-
-
-
 public class abstractClass {
-    public static void main(String[] args) {
+    public  static void main(String[] args) {
         child2 c = new child2();
        // parent2 p = new parent2();  //not allowed 
         c.greet();
         c.greet2();
         
+
         
     }
 }
