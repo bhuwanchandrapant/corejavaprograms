@@ -35,7 +35,7 @@ public class Interface {
         avoncycle bhuwancycle = new avoncycle();
         bhuwancycle.applybreak(1);
         // you can create properties  in interface
-       // System.out.println(bhuwancycle.a);
+        System.out.println(bhuwancycle.a);
 
         // yoy cannot modify the properties in interface as they are final
        // bhuwancycle.a = 454;
