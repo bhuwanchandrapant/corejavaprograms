@@ -57,6 +57,7 @@ public class polymorphism {
         ms.getnetworks();
         ms.callnumber(1234);
         ms.connecttonetworks("bhuwan");
+        ms.getnetworks();
        
 
 
