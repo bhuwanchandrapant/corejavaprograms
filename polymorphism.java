@@ -21,6 +21,7 @@ class mycellphone2{
     }
     void pickcall(){
         System.out.println("connecting......");
+        
     }
 }
 class mysmartphone2 extends mycellphone2 implements mycamera2,mywifi2{
