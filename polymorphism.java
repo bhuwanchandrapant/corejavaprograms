@@ -54,7 +54,7 @@ public class polymorphism {
         mycamera2 cam2 = new mysmartphone2(); //this is a smartphone use it as a camera
         mywifi2 mw2 = new mysmartphone2(); //this is smartphone use it as awifi
         cam2.record4kvideo();  //
-        mw2.getnetworks();
+        
         ms.getnetworks();
         ms.callnumber(1234);
         ms.connecttonetworks("bhuwan");
