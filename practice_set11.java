@@ -61,5 +61,11 @@ public class practice_set11 {
      bhuwan.eat();
      bhuwan.sleep();
 
+     ///qestion5
+     monkey m1 = new human();
+      //m1.speak()  ---> cant use speak()method                             
+     m1.jump();                // polymorphism example
+     
+
     }
 }
