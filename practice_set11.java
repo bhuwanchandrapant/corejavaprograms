@@ -64,7 +64,8 @@ public class practice_set11 {
      ///qestion5
      monkey m1 = new human();
       //m1.speak()  ---> cant use speak()method                             
-     m1.jump();                // polymorphism example
+     m1.jump(); 
+     m1.jump();               // polymorphism example
      
 
     }
