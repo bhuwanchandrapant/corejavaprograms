@@ -22,7 +22,7 @@ public class conditional {
                 break;
         }
         
-         //if-else-if
+         //if-else-if//
          if (age>56) {
             System.out.println("you are old man");
             
