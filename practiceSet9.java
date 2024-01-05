@@ -2,10 +2,10 @@
 class circle{
     public int redious;
     circle(){
-        System.out.println("i am non parameterised of circle");
+        System.out.println("it is an non parameterised of circle");
     }
     circle(int r){
-        System.out.println("i am circle parameterised constructor");
+        System.out.println("it is an circle parameterised constructor");
         this.redious = r;
     }
     public double area(){
@@ -17,7 +17,7 @@ class cylinder1 extends circle{
     public int height;
     cylinder1(int r, int h){
         super(r);
-        System.out.println("i am a cylinder1 parameterised constructor");
+        System.out.println("it is  a cylinder1 parameterised constructor");
         this.height = h;
 
     }
