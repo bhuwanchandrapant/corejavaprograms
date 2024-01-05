@@ -78,7 +78,7 @@ public class practiceSet8 {
         tommy player = new tommy();
         player.hit();
         player.run();
-        player.fire();
+        
 
 
     }
