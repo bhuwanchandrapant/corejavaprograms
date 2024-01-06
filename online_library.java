@@ -48,7 +48,7 @@ public class online_library {
     public static void main(String[] args) {
         library centrallibrary = new library();
         centrallibrary.addbook( "the hidden hindu");
-        centrallibrary.addbook( "how to get rich");
+        centrallibrary.addbook( "how to get success");
         centrallibrary.addbook( "nothing");
 
         centrallibrary.showavailablebooks();
