@@ -42,13 +42,13 @@ class cellPhone{
 }
 class tommy{
     public void  hit(){
-        System.out.println("hitting the enemy...");
+        System.out.println("hitting the enemy........");
     }
     public void run(){
-        System.out.println("running from the enemy");
+        System.out.println("running from the enemy.......");
     }
     public void fire(){
-        System.out.println("firing at the enemy");
+        System.out.println("firing at the enemy .........");
     }
 }
 
