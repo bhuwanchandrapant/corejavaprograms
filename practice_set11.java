@@ -20,10 +20,10 @@ abstract class pen{
 
 class monkey{
     void jump(){
-        System.out.println("jumping japang jampak jampak....");
+        System.out.println("jumping japang jampak jampak bas kr abb....");
     }
     void bite(){
-        System.out.println("biting ooooo ijyaa meriiii kati halyo....");
+        System.out.println("biting ooooo ijyaa meriiii kati halyo reeee ....");
     }
 
 }
