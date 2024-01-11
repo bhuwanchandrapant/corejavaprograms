@@ -17,8 +17,8 @@ class MyThread2 extends Thread{
     public void run(){
         int i =0;
         while(i<=50){
-            System.out.println("thread2 is good");
-            System.out.println("i am glad");
+            System.out.println("thread2 is  so good");
+            System.out.println("i am glad...");
             i++;
         }
 
