@@ -17,7 +17,9 @@ class MyThr1 extends Thread{
         MyThr1 t2 = new MyThr1("bhuwanpant jiiii");
         MyThr1 t3 = new MyThr1("bhavesh pant");
         MyThr1 t4 = new MyThr1("KING KOHALI");
-        MyThr1 t5 = new MyThr1("bhuwan chandra pant");
+        MyThr1 t5 = new MyThr1("king kohali");
+
+        
         t5.setPriority(Thread.MAX_PRIORITY);
         t3.setPriority(Thread.MIN_PRIORITY);
         t2.setPriority(Thread.NORM_PRIORITY);
