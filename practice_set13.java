@@ -36,6 +36,8 @@ public class practice_set13 {
         t2.start();
         System.out.println(t1.getState());
         System.out.println(t2.getState());
+        System.out.println(t1.getState());
+        System.out.println(Thread.currentThread().getState());
 
     }
 }
