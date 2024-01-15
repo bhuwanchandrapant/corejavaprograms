@@ -52,6 +52,13 @@ class MyNewThr2 extends Thread{
         System.out.println("thank you  " + this.getName());
         System.out.println("thank you  " + this.getName());
         System.out.println("thank you  " + this.getName());
+        try {
+            Thread.sleep(1);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        
         /// to check thread priorities use while loop 
        /*  while (true) {
             System.out.println("i am a thread");
