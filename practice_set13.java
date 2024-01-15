@@ -29,9 +29,13 @@ public class practice_set13 {
         t2.setPriority(8);
         System.out.println(t1.getPriority());
         System.out.println(t2.getPriority());
-
+        System.out.println(t1.getState());
+        System.out.println(t2.getState());
+        
         t1.start();
         t2.start();
+        System.out.println(t1.getState());
+        System.out.println(t2.getState());
 
     }
 }
