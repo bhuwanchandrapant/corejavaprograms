@@ -11,25 +11,7 @@ class MyNewThr1 extends Thread{
         System.out.println("thank you  " + this.getName());
         System.out.println("thank you  " + this.getName());
         System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
+     
         /// to check thread priorities use while loop 
        /*  while (true) {
             System.out.println("i am a thread");
@@ -47,10 +29,7 @@ class MyNewThr2 extends Thread{
         System.out.println("thank you  " + this.getName());
         System.out.println("thank you  " + this.getName());
         System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
+       
         System.out.println("thank you  " + this.getName());
         try {
             Thread.sleep(1);
