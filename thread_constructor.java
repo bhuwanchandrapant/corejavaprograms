@@ -5,7 +5,7 @@ class MyThr1 extends Thread{
     }
     public void run(){
         int i = 35;
-        System.out.println("thank you");
+        System.out.println("thank you so much.....");
 
        /*  while (true) {
             System.out.println("i am a thread");
