@@ -9,8 +9,7 @@ class MyNewThr1 extends Thread{
         System.out.println("thank you  " + this.getName());
         System.out.println("thank you  " + this.getName());
         System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
-        System.out.println("thank you  " + this.getName());
+       
      
         /// to check thread priorities use while loop 
        /*  while (true) {
