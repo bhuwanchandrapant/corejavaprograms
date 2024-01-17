@@ -17,9 +17,7 @@ class MyThreadRunnable2 implements Runnable{
         System.out.println("iam thread2 not thread");
         System.out.println("iam thread2 not thread");
         System.out.println("iam thread2 not thread");
-        System.out.println("iam thread2 not thread");
-        System.out.println("iam thread2 not thread");
-        System.out.println("iam thread2 not thread");
+        
         
 
     }
