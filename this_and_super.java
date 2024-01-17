@@ -16,7 +16,7 @@ class Ekclass{
 class Doclass extends Ekclass{
     Doclass(int c){
         super(c);
-        System.out.println("i am a constructor");
+        System.out.println("i am a constructor and nothing.....");
 
     }
 }
