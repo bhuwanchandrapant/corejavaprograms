@@ -11,7 +11,7 @@ public class try_catch_block {
                 System.out.println("the result is "+c);
 
             } catch (Exception e) {
-                System.out.println("we failed to devide , reason :");
+                System.out.println("we failed to devide , reason is  :");
                 System.out.println(e);
 
             }
