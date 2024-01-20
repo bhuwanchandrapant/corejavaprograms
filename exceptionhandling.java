@@ -17,8 +17,8 @@ public class exceptionhandling {
             System.out.println("the value at array index "+marks[ind]);
             System.out.println("the array value/number "+marks[ind]/number);
         } catch (Exception e) {
-            System.out.println("some exception occured");
-            
+            System.out.println("some exception occured....");
+
         }
 
     }
