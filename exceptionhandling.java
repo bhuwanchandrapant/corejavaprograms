@@ -16,10 +16,22 @@ public class exceptionhandling {
         try {
             System.out.println("the value at array index "+marks[ind]);
             System.out.println("the array value/number "+marks[ind]/number);
-        } catch (Exception e) {
-            System.out.println("some exception occured....");
+        } catch (ArithmeticException e) {
+            System.out.println("arithmetic exception occured....");
+            System.out.println(e);
 
         }
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("ArrayIndexOutOfBounds exception occured....");
+            System.out.println(e);
+
+        }
+        catch (Exception e) {
+            System.out.println("some other  exception occured....");
+            System.out.println(e);
+
+        }
+        
 
     }
 }
