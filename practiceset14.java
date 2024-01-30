@@ -19,7 +19,7 @@ public class practiceset14 {
         boolean flag = true;
         int [] marks = new int[3];
         marks[0] = 7;
-        marks[1] = 17;
+        marks[1] = 77;
         marks[2] = 27;
         Scanner sc = new Scanner(System.in);
         int index;
@@ -30,6 +30,9 @@ public class practiceset14 {
                 index = sc.nextInt();
             System.out.println("the value of [index] is " +marks[index]);
             break;
+
+
+
             }
             catch(Exception e){
                 System.out.println("invalid index");
