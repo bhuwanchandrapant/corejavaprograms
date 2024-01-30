@@ -33,7 +33,7 @@ public class finally_block {
 
             }
             finally{
-                System.out.println("i am finally for b= " + b );
+                System.out.println("i am a  finally for b= " + b );
             }
             b--;
             
