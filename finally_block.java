@@ -12,7 +12,7 @@ public class finally_block {
 
         }
         finally{
-            System.out.println("this is the end of the program");
+            System.out.println("this is the the    end of the program");
         }
         return -1;
 
