@@ -12,7 +12,7 @@ public class finally_block {
 
         }
         finally{
-            System.out.println("this is the the    end of the program");
+            System.out.println("the end of the program");
         }
         return -1;
 
@@ -33,7 +33,7 @@ public class finally_block {
 
             }
             finally{
-                System.out.println("i am a  finally for b= " + b );
+                System.out.println("it is a  finally for b= " + b );
             }
             b--;
             
