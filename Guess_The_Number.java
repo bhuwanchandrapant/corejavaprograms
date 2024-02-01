@@ -16,7 +16,7 @@ class Game{
         }
         Game(){
             Random rand = new Random();
-            this.number = rand.nextInt(100);
+            this.number = rand.nextInt(50);
 
         }
         void takeuserinput(){
@@ -27,7 +27,7 @@ class Game{
         boolean iscorrectnumber(){
             noOfguess++;
             if (inputnumber==number) {
-                System.out.format("you guess right, it was %d\n you guess it in %d attempts", number,noOfguess);
+                System.out.format("yehhh you guess right, it was %d\n you guess it in %d attempts", number,noOfguess);
                 return true;
             }
             else if(inputnumber<number){
