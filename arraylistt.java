@@ -19,9 +19,13 @@ public class arraylistt {
         l1.add(0, 5);
         l1.add(2,6);
         l1.addAll(l2);
+        System.out.println(l1.contains(33));
+        System.out.println(l1.indexOf(4));
+       
+        //l1.clear();
         for(int i = 0; i<l1.size(); i++){
-            System.out.println(l1.get(i));
-
+            System.out.print(l1.get(i));
+            System.out.print(",  ");
 
         }
 
