@@ -7,6 +7,9 @@ public class hashset {
         myhashset.add(2);
         myhashset.add(22);
         myhashset.add(12);
+        myhashset.add(12);
+        myhashset.add(12);
+
 
 
         System.out.println(myhashset);
