@@ -6,6 +6,8 @@ public class arraydeque {
         ad1.add(12);
         ad1.add(13);
         ad1.add(14);
+        ad1.add(3);
+        ad1.add(3);
         ad1.addFirst(20);
         System.out.println(ad1.getFirst());
         System.out.println(ad1.getLast());
